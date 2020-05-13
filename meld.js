@@ -4,16 +4,18 @@ function Rule() {
     EndBout();
     var e1=document.getElementById("S21").innerHTML[0];
     var e2=document.getElementById("S12").innerHTML[0];
-    var n1=document.getElementById("S21").innerHTML[1];
-    var n2=document.getElementById("S12").innerHTML[1];
+    var n1=document.getElementById("S21a").innerHTML;
+    var n2=document.getElementById("S12a").innerHTML;
     if ( e1=="D" ) { e1=" " };
     if ( e1=="V" && n1==5 ) { n1=" " };
     if ( e2=="D" ) { e2=" " };
     if ( e2=="V" && n2==5 ) { n1=" " };
     if ( n1==0 ) { n1="0" }
     if ( n2==0 ) { n2="0" }
-    document.getElementById("S21").innerHTML=e1+n1;
-    document.getElementById("S12").innerHTML=e2+n2;
+    document.getElementById("S12").innerHTML=e2;
+    document.getElementById("S21").innerHTML=e1;
+    document.getElementById("S12a").innerHTML=n2;
+    document.getElementById("S21a").innerHTML=n1;
 }
 
 function AddAbschnitt() {
