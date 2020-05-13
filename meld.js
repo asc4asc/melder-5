@@ -1,4 +1,4 @@
-const MaxPoints = 15; // 5,10,15,45 are typical for fencing.
+const MaxPoints = 5; // 5,10,15,45 are typical for fencing.
 
 function AddAbschnitt() {
     var n=document.getElementById("ab").innerHTML;
